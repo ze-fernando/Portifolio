@@ -1,12 +1,17 @@
-body{
+
+.body{
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #d4e2e2;
-    overflow-x: hidden;
     width: 100%;
-    height: auto;
+    height: 100%;
     margin: 0;
+    overflow-x: hidden;
+    position:absolute;
+	top:0;
+	left:0;
+	z-index:11;
 }
 .containerMain{
     display: flex;
@@ -23,6 +28,7 @@ body{
     padding: 1.5em;
     background-color: #031f5a;
     color: #fff;
+    margin-top: em;
 }
 .boxTitle h1{
     font-size: 5em;
@@ -90,16 +96,22 @@ a{
     font-size: 2.5em;
 }
 .containerContact{
-    width: 98%;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containericon, .link{
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 .subject{
     width: 35%;
     height: 3em;
-    border-radius: 9px;
+    border-radius: 6px;
     outline: none;
     border: solid 1px #00133b;
     background-color: #c7dbdb;
@@ -115,7 +127,7 @@ a{
 .bodymail{
     width: 35%;
     height: 9em;
-    border-radius: 9px;
+    border-radius: 6.5px;
     outline: none;
     border: solid 1px #00133b;
     background-color: #c7dbdb;
@@ -141,8 +153,8 @@ a{
     color: #00133b;
 }
 
-/* Projects*/
-.containerProjects1{
+
+.containerProjects{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -160,10 +172,26 @@ a{
     text-align: center;
 
     border: solid 1px #00133b;
-    width: 20em;
-    height: 19em;
-    border-radius: 12px;
+    width: 15em;
+    height: 8em;
+    border-radius: 5px;
     transition: 0.3s;
     margin-left: 1em;
     margin-top: 1em;
+}
+.iconProj{
+    width: 5em;
+    height: auto;
+}
+.botao {
+    width: 22vw;
+    height: 5vh;
+    border: none;
+    border-radius: 0.6vh;
+    background-color: #353f77;
+    color: #FFF;
+}
+.botao:hover {
+    background-color: #0e1125;
+    cursor: pointer;
 }
