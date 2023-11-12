@@ -61,6 +61,7 @@ function App() {
       </div>
       <div className="box2">
         <h2 className="title">Skills</h2>
+        <div className='skill'>
         <img className="tag" align='center' alt='C' src='https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white'/>
         <img className="tag" align='center' alt='C#' src='https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white'/>
         <img className="tag" align='center' alt='Python' src='https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white'/>
@@ -72,12 +73,13 @@ function App() {
         <img className="tag" align='center' alt='PostgreSQL' src='https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white'/>
         <img className="tag" align='center' alt='Docker' src='https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white'/>
         <img className="tag" align='center' alt='Git' src='https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white'/>
+        </div>
       </div>
     </div>
     <h2 className="title">Sobre mim</h2>
     <div className='about'>
       <div className="foto">
-        <img src={zeca} alt="joseF"/>
+        <img src={zeca} className="picture" alt="joseF"/>
       </div>
       <div className="text">
         <p>José Fernando é um programador back-end, nascido em 2003 em Feira de Santana-BA, e apaixonado por tecnologia,

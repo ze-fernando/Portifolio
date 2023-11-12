@@ -15,7 +15,7 @@
 }
 .containerMain{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 90%;
     height: auto;
     margin-top: 5em;
@@ -153,8 +153,6 @@ a{
 ::-webkit-input-placeholder{
     color: #00133b;
 }
-
-
 .containerProjects{
     display: flex;
     justify-content: space-evenly;
@@ -195,4 +193,87 @@ a{
 .botao:hover {
     background-color: #0e1125;
     cursor: pointer;
+}
+
+@media (max-width: 1440px) {
+    .picture{
+        width: 35em;
+    }
+    .text{
+        font-size: small;
+    }
+    .subject, .bodymail{
+        width: 80%;
+    }
+    .botao{
+        width: 80%;
+    }
+    .box2{
+        width: 55%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1024px) {
+    .about{
+        flex-direction: column;
+    }
+}
+@media (max-width: 768px) {
+    .containerMain{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .box1, .box2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;    
+    }
+    .skill{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .text{
+        width: 100%;
+        font-size: small;
+    }
+    .subject, .bodymail{
+        width: 80%;
+    }
+    .botao{
+        width: 80%;
+    }
+}
+@media (max-width: 600px) {
+    .about{
+        flex-direction: column;
+    }
+    .containerMain{
+        font-size: 10px;
+    }
+    .foto{
+        display: none;
+    }
+    .boxTitle{
+        font-size: xx-small;
+    }
+    .subject, .bodymail{
+        width: 80%;
+    }
+    .botao{
+        width: 80%;
+    }
+    .text{
+        font-size: xx-small;
+    }
+    .title{
+        font-size: xx-large;
+    }
 }
