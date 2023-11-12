@@ -107,6 +107,9 @@ function App() {
           </a>  
         )
       }
+      else{
+        return null
+      }
       })}
     </div>
     <h2 className="title">Contate-me via Email</h2>
