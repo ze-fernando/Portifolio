@@ -86,8 +86,8 @@ function App() {
            "sempre gostei de filmes com hackers e programadores, mesmo criança sem saber o que era aqueles códigos já imaginava que queria ser igual no futuro",
             começou sua jornada com 16 anos após decidir ser um hacker ético profissional, mas encontrou a si na programação, 
             desenvolver soluções, tirar as ideias da cabeça, pensar fora da caixa, utilizar logica para resolver problemas, é quando segundo suas palavras 
-            "me sinto eu mesmo", a paixão por aprender e o anseio que tem por desafios só somaram em sua carreira, atualmente sua linguagem principal é o C#, porém 
-            aprecia toda e qualquer tecnologia, acredita que todas podem ser utilizadas segundo o seu proposito e que um bom arsenal de ferramentas não é composto por um martelo e 
+            "me sinto eu mesmo", a paixão por aprender e o anseio que tem por desafios só somaram em sua carreira,
+            aprecia toda e qualquer tecnologia, acredita que todas podem ser utilizadas segundo o seu proposito e que um bom arsenal de ferramentas não é composto apenas por um martelo e 
             uma chave de fenda.</p>
       </div>
     </div>
